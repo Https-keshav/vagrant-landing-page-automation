@@ -11,7 +11,6 @@ Automated setup for hosting landing pages on a Vagrant VirtualBox VM with Apache
 - ✅ **One-command VM setup** with Vagrant
 - ✅ **Automated Apache web server** installation & configuration
 - ✅ **Flexible deployment** - 3 ways to host your landing page
-- ✅ **Nginx reverse proxy** setup (optional, via Vagrant configuration)
 - ✅ **SELinux & permission handling** for production-ready setup
 - ✅ **Cross-platform** - Works on macOS, Linux, Windows (with Vagrant + VirtualBox)
 
@@ -258,12 +257,7 @@ vagrant-landing-page-automation/
 ├── README.md                # This file
 ├── .gitignore               # Git ignore rules
 ├── LICENSE                  # MIT License
-├── examples/
-│   └── sample-landing-page/ # Example HTML landing page
-│       ├── index.html
-│       └── style.css
-└── docs/
-    └── SETUP.md             # Detailed setup guide (optional)
+
 ```
 
 ---
